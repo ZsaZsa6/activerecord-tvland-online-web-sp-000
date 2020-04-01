@@ -5,6 +5,6 @@ class Actor < ActiveRecord::Base
     "#{self.first_name} #{self.last_name}""
   end
   def list_roles
-    
+    characters.collect
   end
 end
